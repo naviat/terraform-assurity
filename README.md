@@ -27,5 +27,5 @@ Usage: run.sh arguments...
 
 Example:
 ```shell
-$ ./run.sh --aws-key "xxx"  --aws-secret "xxx" --region "us-east-1" --key-name "<your key pair name in AWS>" --key-path "~/.ssh/id_rsa"
+$ ./run.sh --aws-key "<your aws key id>"  --aws-secret "<your aws secret key>" --region "<your region>" --key-name "<your key pair name in AWS>" --key-path "<your local key for key pair>"
 ```
